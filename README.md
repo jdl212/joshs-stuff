@@ -1,10 +1,11 @@
 <!-- # CU-NYC-FSF-PT-07-2020-U-C -->
 
-# 🏕 Our class Repo
+# 🏕 joshs repo
 
 ### Welcome home!
 
 #### Folder structure:
+hey
 - 📁 In this repo you will find our curriculum divided into folders that correspond to the week's module and content.
 In each folder:
    - 01-**Activities** - class activities, instructions, and solutions.
