@@ -1,0 +1,17 @@
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+html {
+  box-sizing: border-box;
+}
+aside {
+  float: left;
+}
+
+main {
+  float: right;
+}
+aside, main {opacity :0.5}
+

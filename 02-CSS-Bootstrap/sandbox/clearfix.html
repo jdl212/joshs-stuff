@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         body {
+            background-color: rgb(105, 105, 230);
+         }
+         .container {
+            margin: 20px auto 0px auto;
+            width: 300px;
+            background-color: white;
+            border: 10px solid blue;
+         }
+         .clearfix::after {
+            content: "";
+            clear: both;
+            overflow: auto;
+            display: block;
+         }
+
+         .img {
+            width: 200px;
+            display: block;
+            float:left;
+         }
+         .some-content {
+            color: white;
+            background-color: rgba(54, 238, 152, 0.968);
+         }
+         .content-below {
+         }
+         img {width:10px}
+         #the-content-below {
+            min-height: 300px;
+         }
+      </style>
+   </head>
+
+   <body>
+      <!-- example container -->
+      <section style="width:1400px" class="container clearfix">
+         <img
+            class="img"
+            alt="demo1"
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"
+         />
+         <div  class="content-below">Lorem ipsum, dolor situm!</div>
+      </section>
+
+      <!-- random content -->
+      <div id="the-content-below" class="some-content">
+         Some random content
+      </div>
+      <img
+            alt="demo1"
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"
+         />
+         <img
+            alt="demo1"
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"
+         />
+         <img
+            alt="demo1"
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"
+         />
+         <img
+            alt="demo1"
+            src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/most-beautiful-places-in-the-world-gettyimages-1042549972.jpg"
+         />
+   </body>
+</html>

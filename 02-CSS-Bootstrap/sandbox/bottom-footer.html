@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <style>
+         :root {
+            --footer-height: 80px;
+         }
+         * {
+            box-sizing: border-box;
+         }
+         body {
+            margin: 0px;
+         }
+         main {
+            min-height: calc(100vh - var(--footer-height));
+         }
+         .footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+
+            min-height: var(--footer-height);
+         }
+      </style>
+   </head>
+   <body>
+      <!-- main -->
+      <main>
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut officia
+         corporis, doloribus odit repellat alias nihil aspernatur libero, esse
+         cum repellendus assumenda impedit iste rerum quasi optio eius
+         voluptatum nemo?
+      </main>
+      <!-- footer -->
+      <div class="footer">
+         <span>learn more</span>
+      </div>
+   </body>
+</html>
